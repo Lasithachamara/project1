@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-  int a,b,c,d,e,f;
+  int a,b,c,d=1,e=1,f;
   scanf("%d",&a);
   scanf("%d",&b);
   for(int i=1;i<=a;++i){
@@ -12,5 +12,5 @@ int main() {
    e=e*i; 
   }
  
-  printf("%d %d",e,d);
+  printf("%d \n %d",e,d);
 }
